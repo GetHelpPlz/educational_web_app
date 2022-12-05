@@ -57,9 +57,9 @@
              
            
         </fieldset>
-        <input type="submit" value="Previous" name="previous" >
+        <input type="submit" value="Previous" name="previous" id="previous">
         
-        <input type="submit" value="Submit" name="submit">
+        <input type="submit" value="Submit" name="submit" id="submit">
         {% for question in question_list %}
         <input type="hidden" name="question" value="{{ question.id }}">
         
